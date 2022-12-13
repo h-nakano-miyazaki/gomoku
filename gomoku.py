@@ -6,8 +6,8 @@ board=[
 [0,0,0,0,0,0,0,0],
 [0,0,0,0,0,0,0,0],
 [0,0,0,0,0,0,0,0],
-[0,0,0,2,1,0,0,0],
-[0,0,0,1,2,0,0,0],
+[0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0],
 [0,0,0,0,0,0,0,0],
 [0,0,0,0,0,0,0,0],
 [0,0,0,0,0,0,0,0],
@@ -57,7 +57,7 @@ root=tkinter.Tk()
 root.title("五目並べ")
 root.resizable(False,False)
 root.bind("<Button>",click)
-cvs=tkinter.Canvas(width=640,height=700,bg="green")
+cvs=tkinter.Canvas(width=640,height=700,bg="NavajoWhite3")
 cvs.pack()
 banmen()
 root.mainloop()
